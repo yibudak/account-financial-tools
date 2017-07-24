@@ -12,7 +12,7 @@
 # Glentadakis Dimitrios <dglent@gmail.com>, 2009-2011
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2016
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2015
-# nikos_pap <231036448@freemail.gr>, 2008-2009
+# nikos_pap <nikos769@yahoo.gr>, 2008-2009
 # Paolo Valier, 2016
 # SaFi J. <safi2266@gmail.com>, 2015
 # Thanos Kyritsis <djart@hellug.gr>, 2001
@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-13 03:39+0000\n"
-"PO-Revision-Date: 2016-11-25 14:55+0000\n"
+"POT-Creation-Date: 2017-03-10 23:23+0000\n"
+"PO-Revision-Date: 2017-05-11 14:14+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Finnish (http://www.transifex.com/oca/OCA-account-financial-tools-8-0/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr ""
 #. module: account_check_deposit
 #: view:website:account_check_deposit.report_checkdeposit
 msgid "Amount"
-msgstr ""
+msgstr "Määrä"
 
 #. module: account_check_deposit
 #: view:account.check.deposit:account_check_deposit.account_check_deposit_view_form
@@ -56,7 +56,7 @@ msgstr ""
 #: view:account.check.deposit:account_check_deposit.view_check_deposit_search
 #: field:account.check.deposit,partner_bank_id:0
 msgid "Bank Account"
-msgstr ""
+msgstr "Pankkitili"
 
 #. module: account_check_deposit
 #: view:website:account_check_deposit.report_checkdeposit
@@ -161,7 +161,7 @@ msgstr ""
 #. module: account_check_deposit
 #: view:website:account_check_deposit.report_checkdeposit
 msgid "Date"
-msgstr ""
+msgstr "Päivämäärä"
 
 #. module: account_check_deposit
 #: view:website:account_check_deposit.report_checkdeposit
@@ -199,7 +199,7 @@ msgstr "Luonnos"
 #. module: account_check_deposit
 #: view:account.check.deposit:account_check_deposit.view_check_deposit_search
 msgid "Group By"
-msgstr ""
+msgstr "Ryhmittele"
 
 #. module: account_check_deposit
 #: field:account.check.deposit,id:0
@@ -215,7 +215,7 @@ msgstr ""
 #: view:account.check.deposit:account_check_deposit.view_check_deposit_search
 #: field:account.check.deposit,journal_id:0
 msgid "Journal"
-msgstr ""
+msgstr "Piväkirja"
 
 #. module: account_check_deposit
 #: field:account.check.deposit,move_id:0
@@ -323,4 +323,4 @@ msgstr ""
 #. module: account_check_deposit
 #: view:account.check.deposit:account_check_deposit.account_check_deposit_view_form
 msgid "Validate"
-msgstr ""
+msgstr "Hyväksy"

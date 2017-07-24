@@ -18,10 +18,12 @@ It provides addons to:
 And much more.
 
 [//]: # (addons)
+
 Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[account_asset_depr_line_cancel](account_asset_depr_line_cancel/) | 8.0.1.0.0 | Assets Management - Cancel button
 [account_asset_management](account_asset_management/) | 8.0.2.6.0 | Assets Management
 [account_asset_management_xls](account_asset_management_xls/) | 8.0.0.1.0 | Assets Management Excel reporting
 [account_auto_fy_sequence](account_auto_fy_sequence/) | 8.0.0.1.0 | Automatic Fiscal Year Sequences
@@ -30,6 +32,7 @@ addon | version | summary
 [account_check_deposit](account_check_deposit/) | 8.0.0.1.0 | Manage deposit of checks to the bank
 [account_compute_tax_amount](account_compute_tax_amount/) | 8.0.1.0.0 | Recompute tax_amount
 [account_constraints](account_constraints/) | 8.0.1.1.0 | Account Constraints
+[account_cost_center](account_cost_center/) | 8.0.1.0.0 | Cost center information for invoice lines
 [account_credit_control](account_credit_control/) | 8.0.0.3.0 | Account Credit Control
 [account_credit_control_dunning_fees](account_credit_control_dunning_fees/) | 8.0.0.1.0 | Credit control dunning fees
 [account_default_draft_move](account_default_draft_move/) | 8.0.1.0.0 | Move in draft state by default
@@ -58,6 +61,7 @@ addon | version | summary
 [currency_rate_date_check](currency_rate_date_check/) | 8.0.1.0.0 | Make sure currency rates used are always up-to-update
 [currency_rate_update](currency_rate_update/) | 8.0.0.8.0 | Currency Rate Update
 [l10n_account_translate](l10n_account_translate/) | 8.0.0.2.0 | Multilingual General Accounts
+
 
 Unported addons
 ---------------
