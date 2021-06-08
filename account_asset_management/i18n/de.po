@@ -25,7 +25,7 @@ msgstr ""
 "X-Generator: Weblate 3.10\n"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:1056
+#: code:addons/account_asset_management/models/account_asset.py:1054
 #, python-format
 msgid ""
 "\n"
@@ -277,7 +277,7 @@ msgid "Assets management (OCA)"
 msgstr "Anlagenverwaltung (OCA)"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/report/account_asset_report_xls.py:670
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:671
 #, python-format
 msgid "Assets to be corrected"
 msgstr ""
@@ -351,11 +351,9 @@ msgid ""
 "Choose the method to use to compute the dates and number of depreciation "
 "lines.\n"
 "  * Number of Years: Specify the number of years for the depreciation.\n"
+"  * Number of Depreciations: Fix the number of depreciation lines and the "
+"time between 2 depreciations.\n"
 msgstr ""
-"Wählen Sie das zu verwendende Verfahren zur Bestimmung von Daten und Anzahl "
-"der Abschreibungen.\n"
-"* Anzahl der Jahre: Bestimmen Sie die Anzahl der Jahre über die "
-"abgeschrieben wird.\n"
 
 #. module: account_asset_management
 #: model:ir.model.fields,help:account_asset_management.field_account_asset_profile__method
@@ -457,13 +455,13 @@ msgid "Compute Assets"
 msgstr "Berechne Anlagen"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/wizard/account_asset_compute.py:30
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:35
 #, python-format
 msgid "Compute Assets errors"
 msgstr "Anlagegut-Fehler berechnen"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/wizard/account_asset_compute.py:32
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:37
 #, python-format
 msgid "Compute Assets result"
 msgstr "Anlagegut-Ergebnis berechnen"
@@ -494,8 +492,8 @@ msgid "Create an asset by product item"
 msgstr "Anlagegut pro Produkt erstellen"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/wizard/account_asset_compute.py:44
-#: code:addons/account_asset_management/wizard/account_asset_compute.py:58
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:49
+#: code:addons/account_asset_management/wizard/account_asset_compute.py:63
 #, python-format
 msgid "Created Asset Moves"
 msgstr "Erzeugte Anlagenbuchungen"
@@ -560,13 +558,13 @@ msgstr ""
 "Rechnungspositionen mit diesem Konto verwendet wird."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:146
+#: code:addons/account_asset_management/models/account_asset_profile.py:149
 #, python-format
 msgid "Degressive"
 msgstr "Degressiv"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:148
+#: code:addons/account_asset_management/models/account_asset_profile.py:151
 #, python-format
 msgid "Degressive  up to Salvage Value"
 msgstr "Degressiv bis Restwert"
@@ -578,14 +576,14 @@ msgid "Degressive Factor"
 msgstr "Degressiver Faktor"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:147
+#: code:addons/account_asset_management/models/account_asset_profile.py:150
 #, python-format
 msgid "Degressive-Linear"
 msgstr "Degressiv-Linear"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:257
-#: code:addons/account_asset_management/models/account_asset_profile.py:176
+#: code:addons/account_asset_management/models/account_asset.py:255
+#: code:addons/account_asset_management/models/account_asset_profile.py:180
 #, python-format
 msgid "Degressive-Linear is only supported for Time Method = Year."
 msgstr "Degressiv-Linear wird nur für das Zeit-Verfahren = Jahr unterstützt."
@@ -698,7 +696,7 @@ msgid "Draft Assets"
 msgstr "Anlagenentwürfe"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/report/account_asset_report_xls.py:666
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:667
 #, python-format
 msgid "Duplicate reporting entries"
 msgstr ""
@@ -719,7 +717,7 @@ msgid "Entries"
 msgstr "Buchungen"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:1059
+#: code:addons/account_asset_management/models/account_asset.py:1057
 #, python-format
 msgid ""
 "Error while processing asset '%s': \n"
@@ -773,7 +771,7 @@ msgid "General"
 msgstr "Allgemein"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:438
+#: code:addons/account_asset_management/models/account_asset.py:436
 #, python-format
 msgid "Generate Asset Removal entries"
 msgstr "Erzeuge Buchungen zur Anlagenlöschung"
@@ -847,7 +845,7 @@ msgstr ""
 "Jahres."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:774
+#: code:addons/account_asset_management/models/account_asset.py:772
 #, python-format
 msgid "Illegal value %s in asset.method."
 msgstr "Unzulässiger Wert %s in asset.method."
@@ -909,7 +907,7 @@ msgid "Journal"
 msgstr "Journal"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:458
+#: code:addons/account_asset_management/models/account_asset.py:456
 #: model:ir.model,name:account_asset_management.model_account_move
 #: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
 #, python-format
@@ -973,13 +971,13 @@ msgid "Last Updated on"
 msgstr "Zuletzt geändert am"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:144
+#: code:addons/account_asset_management/models/account_asset_profile.py:147
 #, python-format
 msgid "Linear"
 msgstr "Linear"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:145
+#: code:addons/account_asset_management/models/account_asset_profile.py:148
 #, python-format
 msgid "Linear up to Salvage Value"
 msgstr "Linear bis Restwert"
@@ -991,13 +989,13 @@ msgid "Min-Value Account"
 msgstr "Verlust bei Verkauf"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/report/account_asset_report_xls.py:664
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:665
 #, python-format
 msgid "Missing depreciation table"
 msgstr ""
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:154
+#: code:addons/account_asset_management/models/account_asset_profile.py:157
 #, python-format
 msgid "Month"
 msgstr "Monat"
@@ -1049,6 +1047,12 @@ msgid "Notes"
 msgstr "Bemerkungen"
 
 #. module: account_asset_management
+#: code:addons/account_asset_management/models/account_asset_profile.py:170
+#, python-format
+msgid "Number of Depreciations"
+msgstr ""
+
+#. module: account_asset_management
 #: code:addons/account_asset_management/report/account_asset_report_xls.py:258
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset__method_number
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__method_number
@@ -1057,7 +1061,7 @@ msgid "Number of Years"
 msgstr "Anzahl Jahre"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:166
+#: code:addons/account_asset_management/models/account_asset_profile.py:169
 #, python-format
 msgid "Number of Years or end date"
 msgstr "Anzahl der Jahre oder Enddatum"
@@ -1170,13 +1174,13 @@ msgid "Purchase Value"
 msgstr "Anschaffungswert"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:155
+#: code:addons/account_asset_management/models/account_asset_profile.py:158
 #, python-format
 msgid "Quarter"
 msgstr "Quartal"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/report/account_asset_report_xls.py:672
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:673
 #: model:ir.model.fields,field_description:account_asset_management.field_account_asset_recompute_trigger__reason
 #, python-format
 msgid "Reason"
@@ -1331,7 +1335,7 @@ msgid "Status"
 msgstr "Status"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:747
+#: code:addons/account_asset_management/models/account_asset.py:745
 #, python-format
 msgid ""
 "The '_compute_year_amount' method is only intended for Time Method 'Number "
@@ -1341,7 +1345,7 @@ msgstr ""
 "basierend auf \"Anzahl der Jahre\" verwendbar."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/report/account_asset_report_xls.py:529
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:530
 #, python-format
 msgid "The 'account' field is a mandatory entry of the '_xls_%s_fields' list !"
 msgstr ""
@@ -1362,14 +1366,14 @@ msgid "The Sale Value must be positive!"
 msgstr "Der Verkaufserlös muss positiv sein!"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:267
+#: code:addons/account_asset_management/models/account_asset.py:265
 #: code:addons/account_asset_management/wizard/wiz_account_asset_report.py:52
 #, python-format
 msgid "The Start Date must precede the Ending Date."
 msgstr "Das Startdatum muss vor dem Enddatum liegen."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:535
+#: code:addons/account_asset_management/models/account_asset.py:533
 #, python-format
 msgid ""
 "The duration of the asset conflicts with the posted depreciation table entry "
@@ -1482,7 +1486,7 @@ msgid "Type"
 msgstr "Art"
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/report/account_asset_report_xls.py:668
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:669
 #, python-format
 msgid "Undetermined error"
 msgstr ""
@@ -1534,7 +1538,7 @@ msgstr ""
 "Werden Löschungen gebucht, so geht die Anlage in den Status 'Gelöscht' über."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset_profile.py:156
+#: code:addons/account_asset_management/models/account_asset_profile.py:159
 #, python-format
 msgid "Year"
 msgstr "Jahr"
@@ -1562,7 +1566,7 @@ msgstr ""
 "müssen solche Buchungen aus der Anlage heraus erstellen."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:373
+#: code:addons/account_asset_management/models/account_asset.py:371
 #, python-format
 msgid "You can only delete assets in draft state."
 msgstr "Sie dürfen nur Anlagen im Status 'Entwurf' löschen."
@@ -1605,7 +1609,7 @@ msgstr ""
 "einer Anlagenabschreibung verknüpft ist."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:290
+#: code:addons/account_asset_management/models/account_asset.py:288
 #, python-format
 msgid "You cannot change the profile of an asset with accounting entries."
 msgstr ""
@@ -1622,7 +1626,7 @@ msgstr ""
 "löschen."
 
 #. module: account_asset_management
-#: code:addons/account_asset_management/models/account_asset.py:377
+#: code:addons/account_asset_management/models/account_asset.py:375
 #, python-format
 msgid "You cannot delete an asset that contains posted depreciation lines."
 msgstr ""
@@ -1685,6 +1689,16 @@ msgstr "oder"
 #: model:ir.model,name:account_asset_management.model_report_account_asset_management_asset_report_xls
 msgid "report.account_asset_management.asset_report_xls"
 msgstr ""
+
+#~ msgid ""
+#~ "Choose the method to use to compute the dates and number of depreciation "
+#~ "lines.\n"
+#~ "  * Number of Years: Specify the number of years for the depreciation.\n"
+#~ msgstr ""
+#~ "Wählen Sie das zu verwendende Verfahren zur Bestimmung von Daten und "
+#~ "Anzahl der Abschreibungen.\n"
+#~ "* Anzahl der Jahre: Bestimmen Sie die Anzahl der Jahre über die "
+#~ "abgeschrieben wird.\n"
 
 #~ msgid "Child Assets"
 #~ msgstr "Untergeordnete Anlagen"
